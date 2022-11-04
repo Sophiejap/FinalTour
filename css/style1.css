@@ -1,0 +1,477 @@
+@font-face {
+     font-family:"font";
+    src: url(/font/Roboto/Roboto-Medium.ttf); 
+}
+@font-face{
+    font-family: "font1";
+    src: url(/font/Roboto/Roboto-Light.ttf);
+}
+
+* {
+    
+    font-family:"font";
+}
+body{
+  background-color: rgb(251, 251, 251);  
+}
+
+/*navbar*/
+.navbar {
+    margin: 14px 95px 14px 95px;
+}
+
+.navbar h3 {
+    color: rgb(255, 106, 0);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.navbar h3::after {
+    content: "& Tours";
+    color: black;
+}
+
+.navbar li:hover {
+    color: black;
+    transform: scale(1.04);
+}
+
+.navbar-nav a i {
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    font-size: 14px !important;
+    margin-left: 10px;
+}
+
+.navbar a:hover {
+    color: black;
+    transform: scale(1.04);
+}
+
+.navbar .btn {
+    border: 0px;
+    background-color: rgba(6, 228, 206, 0.764);
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 7px 18px;
+    font-size: 13px;
+    box-shadow: 1px 1px 7px rgba(0, 114, 103, 0.764);
+}
+
+nav .btn:hover {
+    transform: scale(1.05);
+    background-color: rgb(2, 203, 187);
+    color: white;
+}
+
+.navbar-toggler {
+    position: absolute;
+    right: 0;
+}
+
+.bi-bell {
+    font-size: 17px;
+}
+
+.bi-bell:hover {
+    color: black;
+}
+
+.person {
+    background-color: rgb(20, 150, 231);
+    color: white;
+    font-size: 17px;
+    border-radius: 50%;
+    padding: 5px 7px;
+    box-shadow: 1px 2px 4px rgb(34, 163, 243);
+}
+
+.dropdown-menu {
+    width: 170px;
+    border: 1px rgb(255, 106, 0) solid;
+}
+
+.dropdown-menu a {
+    font-size: 18px;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255, 106, 0, 0.461);
+    width: 85%;
+    margin: auto;
+}
+.photo{
+    background-image: url(../img/img.webp);
+    height: 50vh; 
+    background-blend-mode:multiply;
+   background-color: rgba(0, 102, 48, 0.421);
+background-repeat:no-repeat;
+background-size:cover;
+background-position: center;
+position: relative;
+z-index: -1;
+}
+.photo .text-div{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+left: 200px;
+
+
+}
+
+.text-div h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+.text-div a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight:100;
+    font-family: "font1";
+
+}
+#ab{
+    padding-left: 10px;
+    
+}
+/*1*/
+.photo1{
+    background-image: url(../img/img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 560px;
+    border-radius: 10px;
+  
+
+}
+.textimg{
+    margin-top: 80px;
+    
+}
+.text1{
+  padding: 40px 20px 0px 50px;
+  letter-spacing: 1px;
+}
+.text1 h1{
+    font-size: 45px;
+    font-weight:bold;
+    line-height: 65px;
+}
+.text1 p{
+    font-size: 14px;
+    color: rgb(128, 128, 128);
+    font-family: "font1";
+    margin-top: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    
+}
+.number{
+   margin-left: 30px; 
+   margin-top: 55px;
+}
+.number span{
+    font-size: 20px;
+    color:white;
+padding:15px 10px;
+border-top-right-radius: 100px;
+border-end-end-radius: 70px;
+border-end-start-radius: 70px;
+border-top-left-radius: 60px; 
+   
+}
+#ten{
+padding:15px 17px
+}
+.number h6{
+    margin-top: 30px;
+    color: rgb(128, 128, 128);
+font-size: 13px;
+font-family: "font1";
+}
+.number .col-2{
+    margin-right: 40px;
+}
+/*2*/
+.number1{
+    margin-top: 50px;
+}
+.number1 span{
+font-size: 20px;
+color:white;
+padding:8px 10px;
+border-top-right-radius: 100px;
+border-end-end-radius: 70px;
+border-end-start-radius: 70px;
+border-top-left-radius: 60px; 
+}
+.cube{
+    border: 1px solid rgba(159, 159, 159, 0.183);
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding:25px 35px;
+    margin-right: 40px;
+}
+#end{
+    margin-bottom: 0px!important;
+}
+.photo2{
+    background-image: url(../img/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+  
+  
+}
+
+.textimg1{
+    margin-top: 90px;
+   
+}
+.textimg1 h1{
+    font-size: 45px;
+    font-weight:bold;
+    line-height: 65px;
+}
+.number1 h2{
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.number1 p{
+    font-family:"font1";
+    font-size: 15px;
+}
+.tex{
+    margin-left: 20px;
+}
+.cube:hover{
+background-color:white;
+border: 1px solid white;
+}
+/*3*/
+.text3{
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 100px!important;
+}
+.text3 img{
+    width: 600px;
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-end-start-radius: 10px;
+    height: 410px;
+}
+.start{
+position: absolute;
+top: 50%;
+left: 60%;
+transform: translateY(-50%);
+}
+.start h5{
+    color: rgb(255, 106, 0);
+}
+.start h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.start p{
+    font-size: 18px;
+    color: rgb(128, 128, 128);
+    padding-right: 50px;
+    margin-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+  
+}
+.start .btn{
+    background-color: rgb(255, 106, 0);
+    margin-top:35px;
+    color: white;
+    padding: 13px 27px;
+    border-radius: 30px;
+    font-size: 13px;
+    box-shadow: 1px 1px 10px rgb(255, 106, 0);
+}
+
+.clientic{
+margin-top: 90px;
+justify-content: space-between;
+margin-bottom: 40px;
+}
+.icc{
+    padding-right:    5px;
+
+}
+
+.Doe .bi-star-fill{
+    font-size: 20px;
+    color:rgb(255, 169, 32); 
+margin: 6px;
+margin-bottom: 20px;
+}
+.Doe{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+   height: 300px;
+    text-align: left;
+    width: 200px;
+    max-width:100%;
+    background-color: white;
+border-radius: 15px;
+}
+
+.Doe p{
+    font-size: 13px;
+    color: rgb(116, 116, 116);
+    font-weight: 400;
+   padding-left: 7px;
+   padding-right: 20px;
+   font-family: "font1";
+}
+.Doe h3{
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.Doe img{
+width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 7px;
+
+}
+.Doe h6{
+    color: rgb(116, 116, 116);
+  font-size: 14px;
+  margin-bottom: 17px;
+  margin-top: -30px;
+  margin-left: 75px;
+}
+
+    .righ{
+    background-color: rgb(255, 169, 32);
+    box-shadow: 1px 1px 5px rgb(255, 106, 0);
+    font-size: 20px;
+    border-radius: 50%;
+    padding:10px 12px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    }
+    .righ:hover{
+    color: black;}
+    
+
+
+    /*foooter*/
+    footer{
+        margin-top:110px ;
+    }
+  
+    .input h3{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    input::placeholder{
+        font-size: 13px;
+    }
+
+.btninput{
+    background-color: rgb(20, 150, 231);
+    padding: 7px 11px;
+    border-radius: 50%;
+    color: white;
+   position: absolute;
+   top: 94px;
+ right: 25px;}
+ .input{
+    position: relative;
+margin-left: -45px;
+margin-top: 18px;
+ }
+
+ .input input{
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.772);
+    border-radius: 30px;
+    border:  1px solid rgba(71, 71, 71, 0.201);
+ }
+ .input h3{
+    margin-bottom: 25px;
+ }
+
+
+ .foot h5{
+color:rgb(255, 106, 0);
+font-weight: 700;
+}
+.foot h5::after{
+content: "& tour";
+color: rgb(0, 0, 0);
+}
+.foot{
+    margin-left: 160px;
+padding-top: 1px;
+    padding-bottom: 40px;
+}
+.foot p{
+    color: rgb(117, 124, 131);
+    font-size: 14px;
+}
+.foot a{
+text-decoration: none;
+}
+.foot  a{
+    font-size:13px ;
+}
+.foot p{
+    margin-top: -5px;
+}
+.copy{
+    margin-left: 90px;
+    color: rgb(117, 124, 131);
+    font-size: 13px;
+
+}
+.bibi{
+    margin-right: 90px;
+}
+.fa-facebook-f{
+    color: white;
+    background-color:rgba(79, 207, 79, 0.893);
+    padding:7px 9px;
+    font-size: 12px;
+    border-radius: 50%;
+}
+.fa-linkedin-in{
+    color: white;
+    background-color:rgb(255, 106, 0);
+    padding: 7px;
+    font-size: 13px;
+    border-radius: 50%;
+
+}
+.fa-twitter{
+    color: white;
+    background-color: rgb(20, 150, 231);
+    padding:7px;
+    font-size: 12px;
+    border-radius: 50%;
+}
+.bibi a{
+    text-decoration: none!important;
+}

@@ -1,0 +1,137 @@
+
+
+@media screen and (max-width:993px) {
+
+
+    footer {
+        text-align: center;
+        margin-top: 0px !important;
+
+    }
+
+    .foot {
+        margin-left: 0px;
+        padding-bottom: 0px;
+    }
+
+    .foot .container {
+        margin-top: 0px !important;
+
+    }
+
+    .foot p {
+        margin-top: -10px;
+    }
+
+    .usfule {
+        width: 45%;
+    }
+
+    .support {
+        width: 45%;
+    }
+
+    .foot .input {
+        display: none;
+    }
+
+    .textfoot {
+        margin: 0px !important;
+    }
+}
+
+@media screen and (max-width: 769px) {
+
+
+    footer {
+        text-align: center;
+        margin-top: 0px !important;
+
+    }
+
+    .foot {
+        margin-left: 0px;
+        padding-bottom: 0px;
+    }
+
+    .foot .container {
+        margin-top: 0px !important;
+
+    }
+
+    .foot p {
+        margin-top: -10px;
+    }
+
+    .usfule {
+        width: 45%;
+    }
+
+    .support {
+        width: 45%;
+    }
+
+    .foot .input {
+        display: none;
+    }
+
+    .textfoot {
+        margin: 0px !important;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .photo{
+        height: 50vw;
+        margin-bottom: 20px;
+    }
+.text-div{
+    position: absolute;
+    top:50%!important;
+    left: 20px!important;
+
+}
+.one{
+    padding: 0px;
+}
+.adress{
+    margin-top: 30px;
+}
+.form h1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.form .container{
+    padding: 0px;
+}
+
+    .foot {
+        margin-left: 0px;
+        padding-bottom: 0px;
+    }
+
+    .foot .container {
+        margin-top: 0px !important;
+
+    }
+
+    .foot p {
+        margin-top: -10px;
+    }
+
+    .usfule {
+        width: 45%;
+    }
+
+    .support {
+        width: 45%;
+    }
+
+    .foot .input {
+        display: none;
+    }
+
+    .textfoot {
+        margin: 0px !important;
+    }
+}

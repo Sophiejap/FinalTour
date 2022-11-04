@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+<body>
+  <header>
+    <!--navigation-->
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <h3>Travel </h3>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-4 ">
+            <li class="nav-item  dropdown">
+              <a class="nav-link" href="#" data-bs-toggle='dropdown'>Travelers <i class="bi bi-chevron-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item about" href="about.html">About Us</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="flight.html">Flight</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="service.html">Our Services</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" data-bs-toggle='dropdown'> Visa<i class="bi bi-chevron-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">FAQ</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="service.html">Our Services</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" data-bs-toggle='dropdown'>Travel advisory<i
+                  class="bi bi-chevron-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="flight.html">Flight</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="service.html">Our Services</a></li>
+              </ul>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu2 ">
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <div class="eng mx-3">
+              <a href="">
+                <i class="bi bi-globe"></i>
+                Eng
+              </a>
+            </div>
+            <button class="btn mx-3">List your Places</button>
+            <a href=""><i class="bi bi-bell mx-2"></i></a>
+            <a href=""><i class="bi bi-person  person mx-3"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--text-->
+  <div class="container">
+    <div class="row all">
+      <div class="col-lg-6 col-md-12 text ">
+        <h1>Life is short,<br>the world is wide</h1>
+        <p>Learn Press is a WorldPress comlete solution for creating<br>Learning management System courses, lessons.
+          Thank you.</p>
+        <!--Form-->
+        <div class="form">
+          <ul class="ul1">
+            <li><button href="" class="act stays click">Stays</button></li>
+            <li><button href="" class="flight click">Flight</button></li>
+            <li><button href="" class="cars click">Cars</button></li>
+            <li><button href="" class="cruise click">Cruise</button></li>
+            <li><button href="" class="cars click ca">Cars</button></li>
+          </ul>
+          <form class="formtex">
+            <div class="row g-4  active">
+              <div class="col-sm-6 ye for">
+                <label for="location" class="form-label">Location </label>
+                <i class="bi bi-send yes"></i>
+                <input type="text" class="form-control" id="location" placeholder="      Where are you going?" value=""
+                  required="">
+              </div>
+              <div class="col-sm-6 ye for">
+                <label for="in" class="form-label">Check in</label>
+                <input type="text" class="form-control" id="in" placeholder="      Add date" value="" required="">
+                <i class="bi bi-calendar4 yes"></i>
+              </div>
+              <div class="col-sm-6 ye for">
+                <label for="out" class="form-label">Check out</label>
+                <i class="bi bi-calendar4 yes"></i>
+                <input type="text" class="form-control" id="out" placeholder="      Add date" value="" required="">
+              </div>
+              <div class="col-sm-6 ye for">
+                <label for="travelers" class="form-label">Travelers</label>
+                <i class="bi bi-person yes"></i>
+                <input type="text" class="form-control" id="travelers" placeholder="      Travelers" value=""
+                  required="">
+              </div>
+              <button class="btn btn-lg" type="submit"><i class='bi bi-search mx-2 '></i>Search Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--photo-->
+      <div class=" col-lg-5  phot">
+      </div>
+    </div>
+  </div>
+  <!--places-->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class=" mySwiper swiper" style="width: 1065px;max-width: 100%;">
+          <div class="sector2">
+            <div class="d-flex icon ">
+              <h1>Popular Places</h1>
+              <div class="ic">
+                <i class="bi bi-arrow-left left"></i>
+                <i class="bi bi-arrow-right right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="cards d-flex swiper-wrapper ">
+            <div class="col-lg col-md-5 col-sm-6 swiper-slide ">
+              <div class="card one" style="background-image:url(../img/1.jpg);">
+                <a class="b"><i class="bi bi-heart-fill heart"></i>
+                </a>
+                <div class="card-img-overlay ">
+                  <h4>Nusa Penida Island</h4>
+                  <h6><i class="bi bi-geo-alt"></i>Carlifornia.USA</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg col-md-5 col-sm-6 swiper-slide">
+              <div class="card one" style="background-image:url(../img/2.jpg);">
+                <a class="b"><i class="bi bi-heart-fill heart"></i>
+                </a>
+                <div class="card-img-overlay ">
+                  <h4>Nusa Penida Island</h4>
+                  <h6><i class="bi bi-geo-alt"></i>Carlifornia.USA</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg col-md-5 col-sm-6 swiper-slide">
+              <div class="card one" style="background-image:url(../img/3.jpg);">
+                <a class="b"><i class="bi bi-heart-fill heart"></i>
+                </a>
+                <div class="card-img-overlay ">
+                  <h4>Nusa Penida Island</h4>
+                  <h6><i class="bi bi-geo-alt"></i>Carlifornia.USA</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg col-md-5 col-sm-6 swiper-slide">
+              <div class="card one" style="background-image:url(../img/4.jpg);">
+                <a class="b"><i class="bi bi-heart-fill heart"></i>
+                </a>
+                <div class="card-img-overlay ">
+                  <h4>Nusa Penida Island</h4>
+                  <h6><i class="bi bi-geo-alt"></i>Carlifornia.USA</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 swiper-slide">
+              <div class="card one" style="background-image:url(../img/1.jpg);">
+                <a class="b"><i class="bi bi-heart-fill heart"></i>
+                </a>
+                <div class="card-img-overlay ">
+                  <h4>Nusa Penida Island</h4>
+                  <h6><i class="bi bi-geo-alt"></i>Carlifornia.USA</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 swiper-slide">
+              <div class="card one" style="background-image:url(../img/2.jpg);">
+                <a class="b"><i class="bi bi-heart-fill heart"></i>
+                </a>
+                <div class="card-img-overlay ">
+                  <h4>Nusa Penida Island</h4>
+                  <h6><i class="bi bi-geo-alt"></i>Carlifornia.USA</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 swiper-slide">
+              <div class="card one" style="background-image:url(../img/3.jpg);">
+                <a class="b"><i class="bi bi-heart-fill heart"></i>
+                </a>
+                <div class="card-img-overlay ">
+                  <h4>Nusa Penida Island</h4>
+                  <h6><i class="bi bi-geo-alt"></i>Carlifornia.USA</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg col-md-4 col-sm-6 swiper-slide">
+              <div class="card one" style="background-image:url(../img/4.jpg);">
+                <a class="b"><i class="bi bi-heart-fill heart"></i>
+                </a>
+                <div class="card-img-overlay ">
+                  <h4>Nusa Penida Island</h4>
+                  <h6><i class="bi bi-geo-alt"></i>Carlifornia.USA</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--video-->
+    <div class=" container vid mt-5 wrapper">
+      <video poster="/img/Screenshot (229).png" class="video">
+        <source src="/img/video.mp4">
+      </video>
+      <i class="bi bi-play-fill"></i>
+    </div>
+    <!--number-->
+    <div class="container">
+      <div class="row number">
+        <div class="col-lg-3 col-md-6 col-sm-6 d-flex"><i class="bi bi-people me-2"></i>
+          <h2 class="me-2">3256 </h2>
+          <h5>Flights</h5>
+        </div>
+        <div class="col-lg-3  col-md-6 d-flex"><i class="bi bi-award awards me-2"></i>
+          <h2 class="me-2">250</h2>
+          <h5>Certifications</h5>
+        </div>
+        <div class="col-lg-3  col-md-6  d-flex"><i class="bi bi-gift me-2"></i>
+          <h2 class="me-2">140</h2>
+          <h5>Awards</h5>
+        </div>
+        <div class="col-lg-3 col-md-6 d-flex"><i class="bi bi-star me-2"></i>
+          <h2 class="me-2">490 </h2>
+          <h5>5 Stars</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--tour-->
+  <section class="tour">
+    <div class="container">
+      <div class="row">
+        <div class="text-center">
+          <h1>Go anywhere<br> with our latest e-Tour offers</h1>
+        </div>
+        <div class="btn-group btnone" role="group" aria-label="Basic example">
+          <div class="btn7 ms-3 ">
+            <button type="button" class="btn bt acti" id="flights"><i class="bi bi-award "></i> Flights</button>
+          </div>
+          <div class="btn7 hotel">
+            <button type="button" class="btn bt " id="hotel"><i class="bi bi-award "></i> Hotels</button>
+          </div>
+          <div class="btn7">
+            <button type="button" class="btn bt" id="cruise"><i class="bi bi-award "></i> Cruise</button>
+          </div>
+          <div class="btn7">
+            <button type="button" class="btn bt" id="tour"><i class="bi bi-award "></i> Tours</button>
+          </div>
+          <div class="btn7">
+            <button type="button" class="btn bt"><i class="bi bi-award "></i> Stays</button>
+          </div>
+          <div class="btn7">
+            <button type="button" class="btn bt"><i class="bi bi-award "></i> Cars</button>
+          </div>
+          <div class="btn7 things">
+            <button type="button" class="btn bt x"><i class="bi bi-award "></i> Things to do</button>
+          </div>
+        </div>
+      </div>
+      <!---->
+      <div class="row cards2">
+      </div>
+      <div class="row cards10">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card two" style="background-image:url(/img/10.jpg)">
+            <div class="starnum d-flex">
+              <i class="bi bi-star-fill"></i>
+              <h4 class="text-dark">4.7</h4>
+            </div>
+            <div class="card-img-overlay ">
+              <h4>Roosevelt Hotel</h4>
+              <h6> <i class="bi bi-geo-alt"></i>Germany <span class="ms-5">$240</span></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card two" style="background-image:url(img/21.jpg)">
+            <div class="starnum d-flex">
+              <i class="bi bi-star-fill"></i>
+              <h4 class="text-dark">4.7</h4>
+            </div>
+            <div class="card-img-overlay ">
+              <h4>Roosevelt Hotel</h4>
+              <h6> <i class="bi bi-geo-alt"></i>Germany <span class="ms-5">$240</span></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card two" style="background-image:url(img/13.jpg)">
+            <div class="starnum d-flex">
+              <i class="bi bi-star-fill"></i>
+              <h4 class="text-dark">4.7</h4>
+            </div>
+            <div class="card-img-overlay ">
+              <h4>Roosevelt Hotel</h4>
+              <h6> <i class="bi bi-geo-alt"></i>Germany <span class="ms-5">$240</span></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card two" style="background-image:url(img/4.jpg)">
+            <div class="starnum d-flex">
+              <i class="bi bi-star-fill"></i>
+              <h4 class="text-dark">4.7</h4>
+            </div>
+            <div class="card-img-overlay ">
+              <h4>Roosevelt Hotel</h4>
+              <h6> <i class="bi bi-geo-alt"></i>Germany <span class="ms-5">$240</span></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card two" style="background-image:url(img/22.jpg)">
+            <div class="starnum d-flex">
+              <i class="bi bi-star-fill"></i>
+              <h4 class="text-dark">4.7</h4>
+            </div>
+            <div class="card-img-overlay ">
+              <h4>Roosevelt Hotel</h4>
+              <h6> <i class="bi bi-geo-alt"></i>Germany <span class="ms-5">$240</span></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card two" style="background-image:url(img/26.jpg)">
+            <div class="starnum d-flex">
+              <i class="bi bi-star-fill"></i>
+              <h4 class="text-dark">4.7</h4>
+            </div>
+            <div class="card-img-overlay ">
+              <h4>Roosevelt Hotel</h4>
+              <h6> <i class="bi bi-geo-alt"></i>Germany <span class="ms-5">$240</span></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card two" style="background-image:url(img/25.jpg)">
+            <div class="starnum d-flex">
+              <i class="bi bi-star-fill"></i>
+              <h4 class="text-dark">4.7</h4>
+            </div>
+            <div class="card-img-overlay ">
+              <h4>Roosevelt Hotel</h4>
+              <h6> <i class="bi bi-geo-alt"></i>Germany <span class="ms-5">$240</span></h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card two" style="background-image:url(img/2.jpg)">
+            <div class="starnum d-flex">
+              <i class="bi bi-star-fill"></i>
+              <h4 class="text-dark">4.7</h4>
+            </div>
+            <div class="card-img-overlay ">
+              <h4>Roosevelt Hotel</h4>
+              <h6> <i class="bi bi-geo-alt"></i>Germany <span class="ms-5">$240</span></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-view">View All Places</button>
+    </div>
+  </section>
+  <!--4-->
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class='mySwip swiper'>
+          <div class="d-flex icon clientic pt-4 ">
+            <h1 class="ms-5 ">Client Testiomonials</h1>
+            <div class="icc">
+              <i class="bi bi-arrow-left lef"></i>
+              <i class="bi bi-arrow-right righ"></i>
+            </div>
+          </div>
+          <div class="swiper-wrapper">
+            <div class="col-lg-2 col-md-4 col-sm-6 Doe swiper-slide">
+              <img src="/img/01.jpg" alt="">
+              <h3>Jonathan Doe</h3>
+              <h6>Product Designer</h6>
+              <p>Learn Press is a WordPress complete solution for creating Learning Managemennt System.It can help me to
+                create courses,lessons & quizzes & manage them as easy i qant I've learned a lot and i highly recommend
+                it
+                .Thank you.
+              </p>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 Doe swiper-slide">
+              <img src="/img/02.jpg" alt="">
+              <h3>Jonathan Doe</h3>
+              <h6>Product Designer</h6>
+              <p>Learn Press is a WordPress complete solution for creating Learning Managemennt System.It can help me to
+                create courses,lessons & quizzes & manage them as easy i qant I've learned a lot and i highly recommend
+                it
+                .Thank you.
+              </p>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 Doe swiper-slide">
+              <img src="/img/03.jpg" alt="">
+              <h3>Jonathan Doe</h3>
+              <h6>Product Designer</h6>
+              <p>Learn Press is a WordPress complete solution for creating Learning Managemennt System.It can help me to
+                create courses,lessons & quizzes & manage them as easy i qant I've learned a lot and i highly recommend
+                it
+                .Thank you.
+              </p>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 Doe swiper-slide">
+              <img src="/img/04.jpg" alt="">
+              <h3>Jonathan Doe</h3>
+              <h6>Product Designer</h6>
+              <p>Learn Press is a WordPress complete solution for creating Learning Managemennt System.It can help me to
+                create courses,lessons & quizzes & manage them as easy i qant I've learned a lot and i highly recommend
+                it
+                .Thank you.
+              </p>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 Doe swiper-slide">
+              <img src="/img/05.jpg" alt="">
+              <h3>Jonathan Doe</h3>
+              <h6>Product Designer</h6>
+              <p>Learn Press is a WordPress complete solution for creating Learning Managemennt System.It can help me to
+                create courses,lessons & quizzes & manage them as easy i qant I've learned a lot and i highly recommend
+                it
+                .Thank you.
+              </p>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 Doe swiper-slide">
+              <img src="/img/01.jpg" alt="">
+              <h3>Jonathan Doe</h3>
+              <h6>Product Designer</h6>
+              <p>Learn Press is a WordPress complete solution for creating Learning Managemennt System.It can help me to
+                create courses,lessons & quizzes & manage them as easy i qant I've learned a lot and i highly recommend
+                it
+                .Thank you.
+              </p>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 Doe swiper-slide">
+              <img src="/img/02.jpg" alt="">
+              <h3>Jonathan Doe</h3>
+              <h6>Product Designer</h6>
+              <p>Learn Press is a WordPress complete solution for creating Learning Managemennt System.It can help me to
+                create courses,lessons & quizzes & manage them as easy i qant I've learned a lot and i highly recommend
+                it
+                .Thank you.
+              </p>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 Doe swiper-slide">
+              <img src="/img/03.jpg" alt="">
+              <h3>Jonathan Doe</h3>
+              <h6>Product Designer</h6>
+              <p>Learn Press is a WordPress complete solution for creating Learning Managemennt System.It can help me to
+                create courses,lessons & quizzes & manage them as easy i qant I've learned a lot and i highly recommend
+                it
+                .Thank you.
+              </p>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 Doe swiper-slide">
+              <img src="/img/04.jpg" alt="">
+              <h3>Jonathan Doe</h3>
+              <h6>Product Designer</h6>
+              <p>Learn Press is a WordPress complete solution for creating Learning Managemennt System.It can help me to
+                create courses,lessons & quizzes & manage them as easy i qant I've learned a lot and i highly recommend
+                it
+                .Thank you.
+              </p>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 Doe swiper-slide">
+              <img src="/img/05.jpg" alt="">
+              <h3>Jonathan Doe</h3>
+              <h6>Product Designer</h6>
+              <p>Learn Press is a WordPress complete solution for creating Learning Managemennt System.It can help me to
+                create courses,lessons & quizzes & manage them as easy i qant I've learned a lot and i highly recommend
+                it
+                .Thank you.
+              </p>
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--5-->
+  <section>
+    <div class="container ">
+      <div class="row sector2 swiper mySwi" style="width:1097px ; max-width: 100%;">
+        <div class="d-flex icon blog">
+          <h1>Our Latest Blogs</h1>
+          <div class="ic">
+            <i class="bi bi-arrow-left le"></i>
+            <i class="bi bi-arrow-right rig"></i>
+          </div>
+        </div>
+        <div class="swiper-wrapper blogsw">
+      
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="d-flex book position-relative">
+    <div class="book1 d-flex">
+      <img src="img/9.jpg" alt="">
+      <div class="text1 ">
+        <h1>Book a <br>ticket & just leave</h1>
+        <p>Learn Press is a WordPress complete solution for creating Learning Managemennt System.It can help me to
+          create
+          courses,lessons & quizzes .Thank you.
+        </p>
+        <button class="btn btnbook" type="button">Book Now</button>
+      </div>
+    </div>
+    <div class="booking position-absolute bnone">
+      <div class="booking-form ">
+        <div class="form-header d-flex">
+          <h1>Make your Booking</h1>
+          <button type="button" class="btnclos"><i class="bi bi-x-lg "></i></button>
+        </div>
+        <form>
+          <div class="form-group">
+            <input class="form-control" type="text" placeholder="Country, ZIP, city...">
+            <span class="form-label">Destination</span>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input class="form-control" type="date" required="">
+                <span class="form-label">Check In</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input class="form-control" type="date" required="">
+                <span class="form-label">Check out</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-group">
+                <select class="form-control" required="">
+                  <option value="" selected="" hidden="">rooms</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+                <span class="select-arrow"></span>
+                <span class="form-label">Rooms</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <select class="form-control" required="">
+                  <option value="" selected="" hidden="">Adults</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+                <span class="select-arrow"></span>
+                <span class="form-label">Adults</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <select class="form-control" required="">
+                  <option value="" selected="" hidden="">Children</option>
+                  <option>0</option>
+                  <option>1</option>
+                  <option>2</option>
+                </select>
+                <span class="select-arrow"></span>
+                <span class="form-label">Children</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input class="form-control" type="email" placeholder="Enter your Email">
+                <span class="form-label">Email</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input class="form-control" type="tel" placeholder="Enter you Phone">
+                <span class="form-label">Phone</span>
+              </div>
+            </div>
+          </div>
+          <div class="form-btn">
+            <button class="submit-btn">Book Now</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+  <!--footer-->
+  <footer class="text-center text-lg-start bg-dark text-light">
+    <section class=" foot">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-12 col-lg-4 col-xl-3 mx-4 mb-4 textfoot">
+            <h5 class=" me-3 mt-3 mb-3 text-">Travel
+            </h5>
+            <p>
+              Travel & Tours Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Quibusdam dignissimos sit magnam,
+              eos animi aut consectetur repellendus
+            </p>
+          </div>
+          <div class="usfule col-md-6 col-lg-2 col-xl-2 mb-4">
+            <h6 class=" pt-3 mb-4">
+              Usfule link
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Stays</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Flight</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Cars</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Things to do</a>
+            </p>
+          </div>
+          <div class="support col-md-6 col-lg-2 col-xl-2 ms-1 mb-3">
+            <h6 class=" pt-3 mb-4">
+              Support
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">License</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Refund Policy</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Aboout Us</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Contacts</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mb-md-0  input">
+            <h3>Subscribe to our Newsletter</h3>
+            <div class="form-outline form-white mb-5">
+              <input type="tel" id="form5Example21" placeholder="Enter your phone number" class="form-control"><button
+                type="btn" class="btn"><i class="bi bi-arrow-right btninput"></i></button>
+              <label class="form-label" for="form5Example21"></label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="d-flex container  justify-content-center justify-content-lg-between p-4 border-bottom">
+      <div class=" d-none d-lg-block copy">
+        <span>Copyright Travel & Tours @2021</span>
+      </div>
+      <div>
+        <div class="container bibi">
+          <a href="" class="me-2 link-secondary">
+            <i class="fa-brands fa-facebook-f"></i> </a>
+          <a href="" class="me-2 link-secondary">
+            <i class="fa-brands fa-linkedin-in"></i> </a>
+          <a href="" class="me-4 link-secondary">
+            <i class="fa-brands fa-twitter"></i> </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script type='module' src="js/app.js"></script>
+</body>
+
+</html>
